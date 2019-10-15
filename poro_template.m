@@ -1,7 +1,7 @@
 %% Dimensions
 close all;
-load('C:\Users\Yi\OneDrive\master thesis\blocking\kl.mat');
-load('C:\Users\Yi\OneDrive\master thesis\blocking\C_b.mat');
+load('kl.mat');
+load('C_b.mat');
 
 dims.dh=8; % Spacial grid step
 dims.dt=10^-2; % [s]
